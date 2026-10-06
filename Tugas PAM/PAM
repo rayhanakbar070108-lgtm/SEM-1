@@ -11,8 +11,8 @@ for i in range(Jumlah):
 print("\nHASIL CATATAN BARANG:")
 
 for Barang in Daftar_Barang:
-    if len(Barang) >= 5:
-        print(f"- {Barang} (Barang dengan jumlah huruf lebih dari sama dengan 5)")
+    if len(Barang) > 5:
+        print(f"- {Barang} (Barang dengan jumlah huruf lebih dari 5)")
     else:
         print (f"- {Barang} (Barang dengan jumlah huruf kurang dari 5)")
 
